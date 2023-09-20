@@ -41,5 +41,7 @@ typedef struct instruction_s
 } instruction_t;
 
 char **parse_line(char *str);
-
+void check_opcode(char *str, int lineno, stack_t *stack);
+int push(char *num_char, stack_t **stack_top, int lineno);
+void pall(stack_t **stack, unsigned int line_number);
 #endif
