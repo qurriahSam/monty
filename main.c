@@ -1,6 +1,6 @@
 #include "monty.h"
 
-/** 
+/**
  * main - Entry point to the monty program
  * @ac: argument count to main
  * @av: an array of arguments to main
